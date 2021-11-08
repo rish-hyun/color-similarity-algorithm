@@ -1,0 +1,7 @@
+Find H-S histogram
+Find peak H value(using minmaxLoc function)
+Split image 3 channel(h,s,v)
+Apply to threshold.
+Create image by merge 3 channel
+
+https://stackoverflow.com/questions/50899692/most-dominant-color-in-rgb-image-opencv-numpy-python
