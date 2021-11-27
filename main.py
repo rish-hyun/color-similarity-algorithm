@@ -49,7 +49,10 @@ if __name__ == '__main__':
                 'https://i.pinimg.com/564x/b1/e6/fc/b1e6fc03c86512870630851ea09cfa85.jpg',
                 'https://i.pinimg.com/564x/a1/43/20/a1432019772dbb5b2ef600cbf57c82cc.jpg']
 
+
+    Color(None).cruv_method([10,100,200], COLOR_LIST, 'result.png')
+
     for url in url_list:
-        color = Color(url)
-        file_name = f"results/{url.split('/')[-1]}"
-        color.get_match(COLOR_LIST, file_name)
+         color = Color(url)
+         file_name = f"results/{url.split('/')[-1]}"
+         color.get_match(COLOR_LIST, file_name)
